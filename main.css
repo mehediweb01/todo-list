@@ -35,23 +35,23 @@ input[type="checkbox"]:hover {
 .checked {
   text-decoration: line-through;
 }
-.btn-delete{
-transition: all;
+.btn-delete {
+  transition: all;
   transition-duration: 400;
 }
 .btn-delete:hover {
   scale: 1.5;
-  color: rgba(255, 0, 0, 0.700);
+  color: rgba(255, 0, 0, 0.7);
 }
 .btn-edit:hover {
   transition: all;
   scale: 1.5;
 }
-.mainDiv{
+.mainDiv {
   box-shadow: inset 2px 1px 2px 1px black;
 }
 
-#textInput{
+#textInput {
   box-shadow: 1px 1px 2px 1px indigo;
   margin-right: 5px;
 }

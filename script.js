@@ -15,7 +15,7 @@ function addTask() {
   if (text === "") return alert("Enter your task");
 
   const li = document.createElement("li");
-    li.className =
+  li.className =
     "bg-fuchsia-700 py-2 rounded-2xl flex justify-around items-center md:flex-row md:gap-5 gap-3 flex-col mt-2 border-b-2 border-sky-400 text-white";
 
   const index = document.createElement("h1");
@@ -88,7 +88,7 @@ function addTask() {
       pendingCountShow.innerHTML = pendingCount;
     }
   });
-  
+
   li.appendChild(index);
   li.appendChild(span);
   li.appendChild(p);
